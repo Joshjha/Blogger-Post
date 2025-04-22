@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1,
+                   maximum-scale=1, minimum-scale=1, 
+                   width=device-width">
+    <!-- CSS file linked -->
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+
+    <!-- NAV-BAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><h1>Blogger Post</h1></div>
+
+            <!-- menus -->
+             <div class="nav-list">
+                <div>
+                    <a href="#" class="nav-item">Home</a>
+                </div>
+                <div>
+                    <a href="#" class="nav-item">Contact</a>
+                </div>
+                <div>
+                    <a href="#" class="nav-item focus">Create Post</a>
+                </div>
+             </div>
+        </nav>
+    </header>
+    
+
+    <!-- MAIN - Blog-->
+
+    <div class="post-container">
+        <h1>Blog Post</h1>
+
+        <div class="post-input">
+            <input type="text" id="post-title" placeholder="Blog Title">
+            <textarea id="post-content" placeholder="Write your blog"></textarea>
+            <button id="add-post">Add Post</button>
+        </div>
+
+        <div id="post-list">
+        </div>
+    </div>
+
+
+    <!-- MAIN - Reviews -->
+    <main>
+        <div class="reviews-container">
+            <div class="title">
+                <h2>our reviews</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <article class="review">
+                <div class="img-container">
+                    <img src="gyn.png" alt="person-img" class="img" id="person-img">
+                </div>
+                <h4 id="author">Joshua Adu-Larbi</h4>
+                <p id="job">creative director</p>
+                <p class="info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nihil tenetur incidunt laborum quaerat? Dolor eius, 
+                    distinctio ea asperiores aliquid consectetur?
+                </p>
+                <div class="button-container">
+                    <button class="prev-btn" type="button"><</button>
+                    <button class="next-btn" type="button">></button>
+                </div>
+                <button class="btn random-btn">suprise me</button>
+            </article>
+        </div>
+    </main>
+
+
+    <!-- JavaScript file linked -->
+    <script src="script.js"></script>
+</body>
+
+</html>
